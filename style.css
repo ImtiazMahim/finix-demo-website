@@ -787,15 +787,29 @@ img{
 
 
 
-.footer{}
+.footer{
+	background-color: black;
+	border-radius: 20px 20px 0 0;
+	padding: 30px 0 0 0;
+}
 .first-foot{}
 .first-foot a{}
-.first-foot a img{}
-.first-foot p{}
+.first-foot a img{
+	height: 40px;
+	width: auto;
+	margin-bottom: 1rem;
+	background-color: #ff2929;
+	border-radius: 90px 25px 125px 28px;
+}
+.first-foot p{
+	font-size: 12px;
+	margin-bottom: 2rem;
+	color: #f6f6f6;
+}
 
 .first-foot-social h6{
     display: inline-block;
-    color: #4a4a4a;
+    color: #868686;
     font-size: 13px;
     position: relative;
 }
@@ -804,7 +818,7 @@ img{
         position: absolute;
         content: "";
         height: 1.5px;
-        background-color: #454545;
+        background-color: #868686;
         width: 30px;
         top: 50%;
         margin-left: 2px;
@@ -819,30 +833,74 @@ img{
 }
 .first-foot-social ul li a{
     text-decoration: none;
-    color: #4a4a4a;
+    color: #868686;
     font-size: 13px;
 }
 .first-foot-social ul li a:hover{
-    color: #000;
+    color: #fff;
 }
 
 
 .second-foot{}
-.second-foot h6{}
+.second-foot h6{
+	color: wheat;
+	font-size: 15px;
+	margin-bottom: 1rem;
+}
 .second-foot ul{}
-.second-foot ul li{}
-.second-foot ul li a{}
+.second-foot ul li{
+	list-style: none;
+	margin-left: -30px;
+}
+.second-foot ul li a{
+	text-decoration: none;
+	color: wheat;
+	font-size: 11px;
+}
 
 
 .third-foot{}
-.third-foot h6{}
-.third-foot span{}
-.third-foot span i{}
-.third-foot span p{}
+.third-foot h6{
+	color: wheat;
+	font-size: 15px;
+	margin-bottom: 1rem;
+}
+.third-foot span{
+	display: block;
+}
+.third-foot span i{
+	  display: inline-block;
+	  color: wheat;
+	  font-size: 11px;
+}
+}
+.third-foot span p{
+	display: inline-block;
+	color: wheat;
+	font-size: 11px;
+}
+.third-foot span p a{
+	color: wheat;
+	text-decoration: none;
+}
+}
 
-.copyright{}
-.copyright p{}
-.copyright p strong{}
+.copyright{
+	color: wheat;
+	text-align: center;
+	font-size: 11px;
+	margin-top: 3rem;
+	margin-bottom: -5px;
+}
+.copyright p{
+	font-size: 11px;
+	color: wheat;
+	
+}
+.copyright p strong{
+	color: wheat;
+	font-size: 12px;
+}
 
 
 
