@@ -888,6 +888,12 @@ img{
 	display: inline-block;
 }
 
+.hathazari{
+	display: inline-block;
+	color: wheat;
+	font-size: 11px;
+}
+
 .copyright{
 	display: block;
 	color: wheat;
