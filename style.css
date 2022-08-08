@@ -782,3 +782,67 @@ img{
 .card-body-smile a:hover{
     color: #000;
 }
+
+
+
+
+
+.footer{}
+.first-foot{}
+.first-foot a{}
+.first-foot a img{}
+.first-foot p{}
+
+.first-foot-social h6{
+    display: inline-block;
+    color: #4a4a4a;
+    font-size: 13px;
+    position: relative;
+}
+
+.first-foot-social h6::after{
+        position: absolute;
+        content: "";
+        height: 1.5px;
+        background-color: #454545;
+        width: 30px;
+        top: 50%;
+        margin-left: 2px;
+}
+.first-foot-social ul{
+    display: inline-block;
+}
+.first-foot-social ul li{
+    list-style: none;
+    padding: 2px 7px;
+    display: inline-block;
+}
+.first-foot-social ul li a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+.first-foot-social ul li a:hover{
+    color: #000;
+}
+
+
+.second-foot{}
+.second-foot h6{}
+.second-foot ul{}
+.second-foot ul li{}
+.second-foot ul li a{}
+
+
+.third-foot{}
+.third-foot h6{}
+.third-foot span{}
+.third-foot span i{}
+.third-foot span p{}
+
+.copyright{}
+.copyright p{}
+.copyright p strong{}
+
+
+
