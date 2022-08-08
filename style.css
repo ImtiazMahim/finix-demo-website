@@ -868,6 +868,7 @@ img{
 .third-foot span{
 	display: flex;
 	justify-content: flex-start;
+	margin-bottom: .5rem;
 }
 .third-foot span i{
 	  display: inline-block;
