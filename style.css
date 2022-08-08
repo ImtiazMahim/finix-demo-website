@@ -866,12 +866,13 @@ img{
 	margin-bottom: 1rem;
 }
 .third-foot span{
-	display: block;
+	display: flex;
+	justify-content: flex-start;
 }
 .third-foot span i{
 	  display: inline-block;
-	  color: wheat;
-	  font-size: 11px;
+	  color: #ff2929;
+	  font-size: 25px;
 }
 }
 .third-foot span p{
@@ -882,10 +883,13 @@ img{
 .third-foot span p a{
 	color: wheat;
 	text-decoration: none;
-}
+	font-size: 11px;
+	margin-left: .7rem;
+	display: inline-block;
 }
 
 .copyright{
+	display: block;
 	color: wheat;
 	text-align: center;
 	font-size: 11px;
@@ -897,7 +901,10 @@ img{
 	color: wheat;
 	
 }
-.copyright p strong{
+.copyright p a{
+	text-decoration: none;
+}
+.copyright p a strong{
 	color: wheat;
 	font-size: 12px;
 }
